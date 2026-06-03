@@ -226,7 +226,7 @@ ${formData.destino}`
           <h2>COBERTURA NACIONAL</h2>
           <p>Operamos desde Neiva - Huila con cobertura en todo el territorio colombiano.</p>
           <div className="coverage-map">
-            <img src="src/assets/img/page/mapa-colombia.png" alt="Cobertura Nacional de Grúas León" />
+            <img src="/mapa-colombia.png" alt="Mapa de Cobertura Grúas León" />
           </div>
         </section>
 
