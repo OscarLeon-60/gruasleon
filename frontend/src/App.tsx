@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react'
 import SplashScreen from './components/SplashScreen'
 import './styles.css' 
 
+import mapaColombia from './assets/img/page/mapa-colombia.png';
+
 // 👇 AÑADE ESTAS IMPORTACIONES AQUÍ ARRIBA 👇
 import imgGrua from './assets/img/page/img_grua.webp'
 import imgRemolque from './assets/img/page/img_remolque.webp'
@@ -226,7 +228,7 @@ ${formData.destino}`
           <h2>COBERTURA NACIONAL</h2>
           <p>Operamos desde Neiva - Huila con cobertura en todo el territorio colombiano.</p>
           <div className="coverage-map">
-            <img src="/mapa-colombia.png" alt="Mapa de Cobertura Grúas León" />
+            <img src={mapaColombia} alt="Mapa de Cobertura Grúas León" />
           </div>
         </section>
 
